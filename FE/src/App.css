@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+}
+.overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #7d7878;
+    height: 90vh;
+}
+
+#logo{
+    height: 28px;
+    padding-left: 14px;
+}

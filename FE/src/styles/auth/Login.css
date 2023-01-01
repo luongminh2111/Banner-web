@@ -1,0 +1,48 @@
+.body-sign-in{
+    background: url(https://sapo.dktcdn.net/fe-cdn-production/images/login-background.png) no-repeat top;
+    min-height: 100vh;
+    background-size: contain;
+    padding-top: calc((100vh - 588px)/2);
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #e6e8ea;
+}
+
+@media (min-width: 992px){
+    .form-login .loginLogo{
+        justify-content: start !important;
+    } 
+    .form-login .loginLogo img{
+        height: 50px !important;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .body-sign-in .area-login {
+        background: url(https://sapo.dktcdn.net/fe-cdn-production/images/sapo-login_new.png) no-repeat top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .form-login {
+        padding-left: 25px;
+    }
+}
+.form-login .loginLogo{
+    display: flex;
+    justify-content: center;
+}
+.form-login .loginLogo img{
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.form-login .info{
+    padding-bottom: 20px;
+}
+.form-login .info p{
+    text-align: left;
+}
+.form-login .info span{
+    font-weight: bold;
+}

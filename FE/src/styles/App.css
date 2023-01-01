@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+.list{
+  height: 70vh;
+}
+.super-app-theme--header{
+  font-size: 16px;
+  font-weight: 600;
+}
